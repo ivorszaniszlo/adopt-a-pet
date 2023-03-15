@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getPetTypes } from '../../api/petfinder';
 import Logo from '../../assets/logo.svg';
 import Search from '../search';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   const [petTypes, setPetTypes] = useState([]);
@@ -24,12 +25,14 @@ const Navigation = () => {
       <ul className="nav-links">
         <li key="all">
           {/* This link should have an activeClassName and exact prop */}
-          <a
-            href="/"
+          <NavLink
+            exact
+            to="/"
             className="nav-link"
+            activeClassName="nav-link-active"
           >
             All Pets
-          </a>
+          </NavLink>
         </li>
         {petTypes
           ? petTypes.map((type) => (
