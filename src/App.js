@@ -13,7 +13,6 @@ function App() {
           <Route path='/:type?'>
             <HomePage />
           </Route>
-        <HomePage />
       </div>
     </Router>
   );
