@@ -75,7 +75,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 * You can start by installing surge globally.**npm install --global surge**.
 * npm run build
 * [Check the documentation](https://surge.sh/)
-* Deployed on [ivor.surge.sh](https://ivor.surge.sh)
+* Deployed on [ivor.surge.sh](https://adopt-a-pet-ivor.surge.sh/)
 
 ## Created <a id="created"></a>
 
