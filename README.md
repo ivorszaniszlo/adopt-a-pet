@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# Adopt a Pet!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+* [General info](#general-info)
+* [Description](#description)
+* [Screenshot](#screenshot)
+* [Technolgies](#technolgies)
+* [Available Scripts](#scripts)
+* [Setup & Start](#setup)
+* [Deploy](#deploy)
+* [Created](#created)
+* [Learn More](#learnmore)
+
+## General info <a id="general-info"></a>
+
+A web application to practice to add client-side routing to a React Application.
+
+## Description <a id="description"></a>
+
+Specifically built a pet adoption website that allows users to view all the adoptable pets of a particular species and view the profiles of specific adoptable pets. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screenhot <a id="screenshot"></a>
+
+![image](./public/background.jpg)
+
+## Technolgies <a id="technolgies"></a>
+
+* React - Front End Library
 
 ## Available Scripts
 
@@ -39,7 +64,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Setup & Start <a id="setup"></a>
+
+* Clone or download the repo
+* Open the directory and run **npm** to install
+* Run development application by using **npm start**
+
+## Deploy <a id="deploy"></a>
+
+* You can start by installing surge globally.**npm install --global surge**.
+* npm run build
+* [Check the documentation](https://surge.sh/)
+* Deployed on [ivor.surge.sh](https://ivor.surge.sh)
+
+## Created <a id="created"></a>
+
+2023
+
+## Learn More <a id="learnmore"></a>
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
